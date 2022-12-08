@@ -1,4 +1,4 @@
-<footer>Andrew's Portfolio©</footer>
+<footer>Andrew Webster's Portfolio©</footer>
 
 </body>
 </html>
