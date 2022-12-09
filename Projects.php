@@ -46,4 +46,4 @@
   document.getElementById("demo").innerHTML = "Date : " + Date();
 </script>
 
-<? require 'footer.php' ?>
+<?php require 'footer.php' ?>

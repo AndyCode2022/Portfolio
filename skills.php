@@ -26,4 +26,4 @@
       </div>
    </div>
 
-   <? require 'footer.php' ?>
+   <?php require 'footer.php' ?>
