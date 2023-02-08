@@ -24,7 +24,7 @@
             <li><a href="Contact.php">Contact</a></li>
             <li><a href="Enquiries.php">Enquiries</a></li>
             <div class="button1">
-                <button onclick="myFunction2()">Dark Mode</button>
+                <button onclick="functionDark()">Dark Mode</button>
             </div>
         </ul>
     </header>
