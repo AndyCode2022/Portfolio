@@ -1,46 +1,26 @@
 <?php require 'header.php'; ?>
 
 <h2 class="contact">Enquiries</h2>
-<div class="Form">
+
+<form action="processContactForm.php" class="Form" method="post">
     <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">FullName</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name:">
+        <label for="name" class="form-label">FullName</label>
+        <input type="text" class="form-control" id="name" placeholder="Full Name:" required="true">
     </div>
     <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Email</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email:">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Email:" required="true">
     </div>
-    <fieldset class="row mb-3">
-        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-        <div class="col-sm-10">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                    First radio
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                <label class="form-check-label" for="gridRadios2">
-                    Second radio
-                </label>
-            </div>
-            <div class="form-check disabled">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                <label class="form-check-label" for="gridRadios3">
-                    Third disabled radio
-                </label>
-            </div>
-        </div>
-</div>
-<div class="mb-3">
-    <label for="formGroupExampleInput2" class="form-label">Message</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-</div>
-<label for="terms">Agree with T&C:</label>
-<input type="checkbox" name="terms" id="terms" required="true">
-<br>
-<input type="submit" value="Send">
-</div>
+    <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message" required="true" class="form-control">How can I help you?</textarea>
+    </div>
+    <label for="terms">Agree with T&C:</label>
+    <input type="checkbox" name="terms" id="terms" required="true">
+    <br>
+    <div class="mb-3">
+        <input type="submit" name="submit" id="submit" value="submit">
+    </div>
+</form>
 
 <?php require 'footer.php'; ?>
