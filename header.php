@@ -16,17 +16,39 @@
 
 <body>
     <header>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="About Me.php">About Me</a></li>
-            <li><a href="Projects.php">Projects</a></li>
-            <li><a href="skills.php">Skills</a></li>
-            <li><a href="Contact.php">Contact</a></li>
-            <li><a href="Enquiries.php">Enquiries</a></li>
-            <div class="button1">
-                <button onclick="functionDark()">Dark Mode</button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.php">Andrew Webster's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About Me.php">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Projects.php">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skills.php">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.php">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Enquiries.php">Enquiries</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="btn btn-primary" onclick="functionDark()">Dark Mode</button>
+                    </div>
+                </div>
             </div>
-        </ul>
+        </nav>
     </header>
 
     <script src="javascript/interface.js"></script>

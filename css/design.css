@@ -21,7 +21,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -37,14 +36,32 @@ li a {
 }
 
 li a:hover {
-    background-color: black;
+    background-color: red;
     border-radius: 5px;
+}
+
+/* Body */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+    /* add some padding to make room for the footer */
+    padding-bottom: 3rem;
 }
 
 /* Footer */
 
 footer {
-  text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Homepage */
@@ -181,7 +198,6 @@ text-align: center;
 h3 {
     text-shadow:0.25px 0.25px white;
     color: red;
-    text-underline-position: above;
 }
 
 p {
