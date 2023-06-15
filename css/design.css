@@ -80,14 +80,14 @@ footer {
 
 /* About Page */
 
-.story {
+.display-1 {
  text-shadow: 1px 1px white;
- color: red;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 50px;
  text-align: center;
  width: 20%;
  margin: auto;
+ padding: 100px;
 }
 
 /* Projects Page */

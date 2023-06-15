@@ -48,7 +48,7 @@
                 </ul>
                 <div class="d-flex">
                     <button class="btn btn-primary" onclick="functionDark()">Dark Mode</button>
-                </div>
+</div>
             </div>
         </div>
     </nav>
