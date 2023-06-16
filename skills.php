@@ -1,8 +1,6 @@
 <?php require 'header.php'; ?>
 
-<div class="container-fluid p-5 bg-primary text-white text-center">
-   <h1>Skills/Knowledge</h1>
-</div>
+   <h1 class="display-1">Skills/Knowledge</h1>
 
 <div class="container mt-5">
    <div class="row">

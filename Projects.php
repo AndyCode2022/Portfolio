@@ -24,8 +24,6 @@
 
 <img src="portfolio_images/img3.jpg" style="width:100%">
 
-
-
 <div class="container">
   <div class="row">
     <div class="col">
@@ -39,8 +37,6 @@
     </div>
   </div>
 </div>
-
-
 
 <script>
   document.getElementById("demo").innerHTML = "Date : " + Date();

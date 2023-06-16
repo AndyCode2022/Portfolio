@@ -10,18 +10,13 @@
     <link rel="stylesheet" href="css/design.css">
     <!-- Bootstrap5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- react plugins -->
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <!-- end of react plugins -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">Andrew Webster's Portfolio</a>
+            <a class="navbar-brand" href="./index.php">Andrew Webster's Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +26,7 @@
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="About Me.php">About Me</a>
+                        <a class="nav-link" href="About_Me.php">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Projects.php">Projects</a>
@@ -48,7 +43,7 @@
                 </ul>
                 <div class="d-flex">
                     <button class="btn btn-primary" onclick="functionDark()">Dark Mode</button>
-</div>
+                </div>
             </div>
         </div>
     </nav>
