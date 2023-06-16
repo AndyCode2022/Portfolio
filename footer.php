@@ -1,4 +1,4 @@
-<footer class="bg-light text-center p-3">
+<footer class="bg-light text-center">
     Andrew Webster's Portfolio&copy;
 </footer>
 

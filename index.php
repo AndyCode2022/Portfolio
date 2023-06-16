@@ -1,6 +1,6 @@
 <?php require 'header.php'; ?>
 
-  <h1 class="homeTitle">Welcome to my website/portfolio</h1>
+  <h1 class="display-1">Welcome to my website/portfolio</h1>
 
   <canvas id="projector">Your browser does not support the Canvas element.</canvas>
 
