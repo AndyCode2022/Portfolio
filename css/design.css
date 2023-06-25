@@ -1,3 +1,8 @@
+/* Tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ------- Header ------- */
 
 .button1 {
@@ -93,12 +98,9 @@ footer {
 
 .display-2 {
  text-shadow: 1px 1px white;
- font-family: Arial, Helvetica, sans-serif;
  font-size: 50px;
  text-align: center;
- width: 20%;
- margin: auto;
- padding: 100px;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 /* Projects Page */

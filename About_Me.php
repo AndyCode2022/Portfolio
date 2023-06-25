@@ -1,6 +1,5 @@
 <?php require 'header.php'; ?>
 
-   <article>
       <h1 class="display-2">About Me</h1>
       <p>Hello my name is Andrew. I come from Scotland and have a passion for playing video games. I hope to become a
          website
@@ -15,6 +14,5 @@
          as well like putting in jobs to the back of looms that didn't need
          loomings and setting up Jacquard looms
       </p>
-   </article>
 
    <?php require 'footer.php' ?>
