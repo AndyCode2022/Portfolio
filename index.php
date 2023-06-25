@@ -1,15 +1,11 @@
 <?php require 'header.php'; ?>
 
+<div class="homePage"></div>
   <h1 class="display-1">Welcome to my website/portfolio</h1>
+</div>
+
+<div class=""></div>
 
   <canvas id="projector">Your browser does not support the Canvas element.</canvas>
-
-  <div class="timeDesign">
-    <div id="time1">
-      <script>
-        document.getElementById("time1").innerHTML = "Date : " + Date();
-      </script>
-    </div>
-  </div>
 
   <?php require 'footer.php' ?>

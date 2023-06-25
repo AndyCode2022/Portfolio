@@ -1,5 +1,7 @@
 <?php require 'header.php'; ?>
 
+<h1 class="display-1">Contact</h1>
+
 <address>
   <p>Click the link to get to my linkedIn account:
     <a href="https://www.linkedin.com/in/andrew403/" target="_blank">Click me</a>

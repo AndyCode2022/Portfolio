@@ -1,8 +1,6 @@
 <?php require 'header.php'; ?>
 
-<div class="work">
-  <p>Welcome to my Projects</p>
-</div>
+<h1 class="display-1">Projects</h1>
 
 <p>A group project that I did with classmates at college.
   In this project we made a fitness app which<br>
@@ -24,6 +22,18 @@
 
 <img src="portfolio_images/img3.jpg" style="width:100%">
 
+<h2 class="display-2">Bike King Borders</h2>
+
+<img src="portfolio_images/bkb.png" style="width:100%">
+
+<h2 class="display-2">Theatre Website</h2>
+
+<img src="portfolio_images/theatre.png" style="width:100%">
+
+<h2 class="display-2">Sokoban</h2>
+
+<img src="portfolio_images/sokoban.png" style="width:100%">
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -34,6 +44,15 @@
     </div>
     <div class="col">
       <img src="portfolio_images/img3.jpg" alt="" style="width: 100%">
+    </div>
+    <div class="col">
+      <img src="portfolio_images/bkb.png" alt="" style="width: 100%">
+    </div>
+    <div class="col">
+      <img src="portfolio_images/theatre.png" alt="" style="width: 100%">
+    </div>
+    <div class="col">
+      <img src="portfolio_images/sokoban.png" alt="" style="width: 100%">
     </div>
   </div>
 </div>

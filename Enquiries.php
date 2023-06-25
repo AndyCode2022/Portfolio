@@ -1,6 +1,6 @@
 <?php require 'header.php'; ?>
 
-<h2 class="contact">Enquiries</h2>
+<h1 class="display-1">Enquiries</h1>
 <div class="container">
     <form action="processContactForm.php" class="Form" method="post">
         <div class="mb-3">
