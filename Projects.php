@@ -37,28 +37,24 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <img src="portfolio_images/img1.jpg" alt="" style="width: 100%">
+      <img src="portfolio_images/img1.jpg" alt="fitness app" style="width: 100%">
     </div>
     <div class="col">
-      <img src="portfolio_images/img2.jpg" alt="" style="width: 100%">
+      <img src="portfolio_images/img2.jpg" alt="youtube channel showcase website" style="width: 100%">
     </div>
     <div class="col">
-      <img src="portfolio_images/img3.jpg" alt="" style="width: 100%">
+      <img src="portfolio_images/img3.jpg" alt="random number generator created in java" style="width: 100%">
     </div>
     <div class="col">
-      <img src="portfolio_images/bkb.png" alt="" style="width: 100%">
+      <img src="portfolio_images/bkb.png" alt="bike store created using ionic and react" style="width: 100%">
     </div>
     <div class="col">
-      <img src="portfolio_images/theatre.png" alt="" style="width: 100%">
+      <img src="portfolio_images/theatre.png" alt="theatre website for displaying reviews and announcements" style="width: 100%">
     </div>
     <div class="col">
-      <img src="portfolio_images/sokoban.png" alt="" style="width: 100%">
+      <img src="portfolio_images/sokoban.png" alt="Sokoban game created in Java" style="width: 100%">
     </div>
   </div>
 </div>
-
-<script>
-  document.getElementById("demo").innerHTML = "Date : " + Date();
-</script>
 
 <?php require 'footer.php' ?>
