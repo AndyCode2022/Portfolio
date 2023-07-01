@@ -22,15 +22,15 @@
 
 <img src="portfolio_images/img3.jpg" style="width:100%">
 
-<h2 class="display-2">Bike King Borders</h2>
+<h1 class="display-1">Bike King Borders</h1>
 
 <img src="portfolio_images/bkb.png" style="width:100%">
 
-<h2 class="display-2">Theatre Website</h2>
+<h1 class="display-1">Theatre Website</h1>
 
 <img src="portfolio_images/theatre.png" style="width:100%">
 
-<h2 class="display-2">Sokoban</h2>
+<h1 class="display-1">Sokoban</h1>
 
 <img src="portfolio_images/sokoban.png" style="width:100%">
 

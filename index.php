@@ -6,4 +6,7 @@
 
 <canvas id="projector">Your browser does not support the Canvas element.</canvas>
 
+<div id="particles-js">
+</div>
+
 <?php require 'footer.php' ?>
