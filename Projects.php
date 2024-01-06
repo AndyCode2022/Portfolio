@@ -1,60 +1,42 @@
 <?php require 'header.php'; ?>
 
-<h1 class="display-1">Projects</h1>
+<body>
 
-<p>A group project that I did with classmates at college.
-  In this project we made a fitness app which<br>
-  allowed users to select which workout they wanted to do <br>
-  and timed them on how they long<br>
-  they did it for. The application displayed the results
-  at the end of the program.
-</p>
-
-<img src="portfolio_images/img1.jpg" style="width:100%">
-
-<p>This is a website I created to show off a youtube gaming channel</p>
-
-<img src="portfolio_images/img2.jpg" style="width:100%">
-
-<p>A random number generator that takes the number you input and prints
-  <br>out whether the correct number was generated or not.
-</p>
-
-<img src="portfolio_images/img3.jpg" style="width:100%">
-
-<h1 class="display-1">Bike King Borders</h1>
-
-<img src="portfolio_images/bkb.png" style="width:100%">
-
-<h1 class="display-1">Theatre Website</h1>
-
-<img src="portfolio_images/theatre.png" style="width:100%">
-
-<h1 class="display-1">Sokoban</h1>
-
-<img src="portfolio_images/sokoban.png" style="width:100%">
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <img src="portfolio_images/img1.jpg" alt="fitness app" style="width: 100%">
+  <h1 class="display-1">Projects</h1>
+<!-- Containers for each one of my previous projects -->
+  <div class="project-container">
+    <div class="project-item">
+      <h2>Fitness App</h2>
+      <p>A group project that I did with classmates at college. In this project, we made a fitness app that allowed users to select and time their workouts.</p>
+      <img src="portfolio_images/img1.jpg" alt="Fitness App">
     </div>
-    <div class="col">
-      <img src="portfolio_images/img2.jpg" alt="youtube channel showcase website" style="width: 100%">
+
+    <div class="project-item">
+      <h2>Youtube Channel Website</h2>
+      <p>A website created to showcase a YouTube gaming channel.</p>
+      <img src="portfolio_images/img2.jpg" alt="Youtube Channel Website">
     </div>
-    <div class="col">
-      <img src="portfolio_images/img3.jpg" alt="random number generator created in java" style="width: 100%">
+
+    <div class="project-item">
+      <h2>Random Number Generator</h2>
+      <p>A Java program that generates random numbers and checks if the correct number was generated.</p>
+      <img src="portfolio_images/img3.jpg" alt="Random Number Generator">
     </div>
-    <div class="col">
-      <img src="portfolio_images/bkb.png" alt="bike store created using ionic and react" style="width: 100%">
+
+    <div class="project-item">
+      <h2>Bike King Borders</h2>
+      <img src="portfolio_images/bkb.png" alt="Bike King Borders">
     </div>
-    <div class="col">
-      <img src="portfolio_images/theatre.png" alt="theatre website for displaying reviews and announcements" style="width: 100%">
+
+    <div class="project-item">
+      <h2>Theatre Website</h2>
+      <img src="portfolio_images/theatre.png" alt="Theatre Website">
     </div>
-    <div class="col">
-      <img src="portfolio_images/sokoban.png" alt="Sokoban game created in Java" style="width: 100%">
+
+    <div class="project-item">
+      <h2>Sokoban Game</h2>
+      <img src="portfolio_images/sokoban.png" alt="Sokoban Game">
     </div>
   </div>
-</div>
 
 <?php require 'footer.php' ?>

@@ -54,6 +54,10 @@ html {
 
 body {
   margin: 0;
+  background-color: #d3d3d3;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 1.5px;
 }
 
 main {
@@ -112,16 +116,31 @@ body {
 
 /* About Page */
 
-.display-2 {
- /* text-shadow: 1px 1px white;
- font-size: 50px;
- text-align: center;
-  animation: glow 1s ease-in-out infinite alternate; */
-}
-
 /* Projects Page */
 
+h2 {
+  font-size: 24px;
+  color: #111111;
+}
 
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  flex: 1;
+  margin-right: 20px;
+}
 
 /* Skills Page */
 
@@ -219,7 +238,7 @@ form {
 }
 
 h2 {
-color: antiquewhite;
+color: black;
 font-size: 50px;
 text-align: center;
 }

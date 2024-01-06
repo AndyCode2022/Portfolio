@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- Tailwind customised nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.php">Andrew Webster's Portfolio</a>
@@ -43,6 +44,7 @@
                         <a class="nav-link" href="Enquiries.php">Enquiries</a>
                     </li>
                 </ul>
+                <!-- Dark mode functionality button -->
                 <div class="d-flex">
                     <button class="btn btn-primary" onclick="functionDark()">Dark Mode</button>
                 </div>
